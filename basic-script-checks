@@ -1,0 +1,31 @@
+Write a Bash script that recursively finds all files with a ".log" extension in a specified directory and its subdirectories. The script should print the filenames, the number of lines in each file, and the total number of lines across all log files.
+# Your Bash script here
+
+Write a Bash script that accepts a directory as an argument, identifies all shell scripts within that directory, and adds execute permission to each script.
+# Your Bash script here
+
+Create a Bash script that takes a list of words as command-line arguments and outputs the unique words sorted in alphabetical order.
+# Your Bash script here
+
+Write a Bash script that reads a text file named "data.txt" and counts the occurrences of each unique word. Print the word and its count in descending order of frequency.
+# Your Bash script here
+
+
+Develop a Bash script that finds and deletes all empty files within a specified directory and its subdirectories.
+# Your Bash script here
+
+Coding Exercise - Python Scripting:
+Write a Python script that reads data from a REST API (e.g., JSONPlaceholder) and prints the number of unique email domains present in the dataset. Handle any exceptions that may arise.
+# Your Python script here
+
+Create a Python script that accepts a directory as a command-line argument, identifies all Python scripts within that directory, and checks if they adhere to PEP 8 coding standards. Print the names of non-compliant scripts.
+# Your Python script here
+
+Write a Python script that receives a sentence as input and outputs the words sorted by their lengths in ascending order.
+# Your Python script here
+
+Develop a Python script that analyzes a given CSV file (format: name, age, grade) and prints the names of students who have an average grade above a specified threshold.
+# Your Python script here
+
+Write a Python script that connects to a database, retrieves records, and exports the data to a CSV file. Ensure proper exception handling for database connections and file operations.
+# Your Python script here
