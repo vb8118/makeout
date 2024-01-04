@@ -1,0 +1,302 @@
+### Java Build and Compile Questions:
+
+1. What is the primary purpose of the `javac` command in Java?
+   - A. Run Java applications
+   - B. Compile Java source code to bytecode
+   - C. Debug Java programs
+   - D. Package Java applications
+
+2. In Java, what is the file extension for a compiled bytecode file?
+   - A. .java
+   - B. .class
+   - C. .jar
+   - D. .byte
+
+3. What is the role of the `java` command in Java programming?
+   - A. Compile Java source code
+   - B. Package Java applications
+   - C. Execute Java bytecode
+   - D. Debug Java programs
+
+4. Which command is used to create a JAR file in Java?
+   - A. jar
+   - B. javac
+   - C. java
+   - D. jvm
+
+5. What does the term "Java Virtual Machine (JVM)" refer to?
+   - A. A physical machine running Java applications
+   - B. An interpreter for Java source code
+   - C. A virtualized environment for running Java bytecode
+   - D. A compiler for Java programs
+
+6. What is the purpose of the `classpath` in Java?
+   - A. Set the Java version for compilation
+   - B. Specify the location of external libraries during compilation and execution
+   - C. Define the package structure of a Java project
+   - D. Control the runtime behavior of Java programs
+
+7. Which keyword is used to define a constant in Java?
+   - A. var
+   - B. final
+   - C. static
+   - D. const
+
+8. How is the `main` method defined in a Java program?
+   - A. `public void main(String[] args)`
+   - B. `public static int main(String args[])`
+   - C. `public static void main(String[] arguments)`
+   - D. `static void main(String[] args)`
+
+9. What is the purpose of the `import` statement in Java?
+   - A. Include external libraries
+   - B. Define custom packages
+   - C. Specify input/output streams
+   - D. Create new variables
+
+10. What is the default value for an uninitialized instance variable in Java?
+    - A. 0
+    - B. null
+    - C. false
+    - D. Depends on the variable type
+
+11. How are comments denoted in Java source code?
+    - A. <!-- -->
+    - B. //
+    - C. /* */
+    - D. ---
+
+12. What is the difference between `==` and `.equals()` when comparing objects in Java?
+    - A. They are interchangeable, and both can be used for object comparison.
+    - B. `==` compares object references, and `.equals()` compares object content.
+    - C. `==` compares object content, and `.equals()` compares object references.
+    - D. Both always return true when used with objects.
+
+13. What is the purpose of the `super` keyword in Java?
+    - A. Invoke a superclass method
+    - B. Define a constant
+    - C. Specify a variable type
+    - D. Create an object
+
+14. Which of the following is not a valid access modifier in Java?
+    - A. public
+    - B. private
+    - C. protected
+    - D. internal
+
+15. What is the significance of the `static` keyword in Java?
+    - A. It indicates that a variable is constant.
+    - B. It is used for memory allocation in Java.
+    - C. It allows a method or variable to be accessed without creating an instance of the class.
+    - D. It specifies that a class cannot be instantiated.
+
+16. How is exception handling implemented in Java?
+    - A. try-catch blocks
+    - B. if-else statements
+    - C. switch-case statements
+    - D. while loops
+
+17. Which keyword is used to implement inheritance in Java?
+    - A. implements
+    - B. extends
+    - C. inherits
+    - D. uses
+
+18. What is the purpose of the `finally` block in a try-catch-finally statement?
+    - A. To handle exceptions
+    - B. To execute code regardless of whether an exception occurs or not
+    - C. To define the main program logic
+    - D. To specify the return type of a method
+
+19. In Java, what does the `this` keyword refer to?
+    - A. The current class
+    - B. The current object instance
+    - C. The superclass
+    - D. The current method
+
+20. What is the role of the `new` keyword in Java?
+    - A. Create a new instance of a class
+    - B. Declare a new variable
+    - C. Initialize an array
+    - D. Allocate memory for a variable
+
+21. How are threads implemented in Java?
+    - A. Using the `thread` keyword
+    - B. By extending the `Thread` class or implementing the `Runnable` interface
+    - C. Through the `process` class
+    - D. Using the `sync` keyword
+
+22. What is the purpose of the `synchronized` keyword in Java?
+    - A. Indicate that a method cannot be overridden
+    - B. Ensure only one thread can access a method or block of code at a time
+    - C. Specify that a method should not throw exceptions
+    - D. Synchronize the output of a program
+
+23. What is the Java naming convention for constants?
+    - A. camelCase
+    - B. PascalCase
+    - C. UPPERCASE_WITH_UNDERSCORES
+    - D. lowercase_with_underscores
+
+24. How do you handle multiple exceptions in a single catch block in Java?
+    - A. Separate catch blocks for each exception type
+    - B. Use a single catch block with multiple catch clauses
+    - C. Use a try block for each exception
+    - D. Use nested try-catch blocks
+
+25. What is the purpose of the `StringBuilder` class in Java?
+    - A. Create a new instance of a class
+    - B. Efficiently manipulate strings without creating new objects
+    - C. Define a constant string
+    - D. Implement thread synchronization
+
+26. How is method overloading different from method overriding in Java?
+    - A. Method overloading is performed at compile-time, and method overriding is performed at runtime.
+    - B. Method overloading occurs in the same class, and method overriding occurs in a subclass.
+    - C. Method overloading involves providing multiple implementations of a method with different parameter lists, while method overriding involves providing a new implementation for an inherited method.
+    - D. Method overloading is not allowed in Java.
+
+27. What is the purpose of the `interface` keyword in Java?
+    - A. Specify that a class cannot be instantiated
+    - B. Define a set of methods that a class must
+
+ implement
+    - C. Declare a constant value
+    - D. Allow multiple inheritances
+
+28. How is polymorphism achieved in Java?
+    - A. By using the `this` keyword
+    - B. Through method overloading
+    - C. By using the `super` keyword
+    - D. Through method overriding
+
+29. What is the difference between an abstract class and an interface in Java?
+    - A. An abstract class cannot have abstract methods, while an interface can.
+    - B. An abstract class can have constructor methods, while an interface cannot.
+    - C. A class can extend multiple abstract classes, but it can implement only one interface.
+    - D. An interface can have instance variables, while an abstract class cannot.
+
+30. What is the purpose of the `transient` keyword in Java?
+    - A. Indicate that a variable cannot be serialized
+    - B. Mark a variable as volatile
+    - C. Specify that a variable should be ignored during serialization
+    - D. Make a variable immutable
+
+31. How is memory management handled in Java?
+    - A. Through manual memory allocation and deallocation
+    - B. Automatically by the Java Virtual Machine (JVM) using garbage collection
+    - C. By using the `malloc` and `free` functions
+    - D. By the operating system
+
+32. What is the purpose of the `equals` method in the `Object` class?
+    - A. Compare two objects for reference equality
+    - B. Compare two objects for value equality
+    - C. Check if an object is of a specific type
+    - D. Determine the hash code of an object
+
+33. How is an abstract class different from an interface in terms of constructors?
+    - A. An abstract class can have constructors, while an interface cannot.
+    - B. An interface can have constructors, while an abstract class cannot.
+    - C. Both abstract classes and interfaces can have constructors with the same rules.
+    - D. Neither abstract classes nor interfaces can have constructors.
+
+34. What is the purpose of the `package` statement in Java?
+    - A. Declare a constant value
+    - B. Specify the access level of a class
+    - C. Define a package structure for classes
+    - D. Set the Java version for compilation
+
+35. How can you prevent a class from being subclassed in Java?
+    - A. Use the `final` keyword in the class declaration
+    - B. Use the `sealed` keyword in the class declaration
+    - C. Use the `abstract` keyword in the class declaration
+    - D. Define a private constructor in the class
+
+36. What is the purpose of the `instanceof` operator in Java?
+    - A. Check if an object is of a specific type
+    - B. Determine the size of an object
+    - C. Compare two objects for equality
+    - D. Access the properties of an object
+
+37. How is method overriding different from method hiding in Java?
+    - A. Method overriding occurs in a subclass, and method hiding occurs in the same class.
+    - B. Method overriding involves providing a new implementation for an inherited method, while method hiding involves defining a static method with the same name in a subclass.
+    - C. Method hiding is not allowed in Java.
+    - D. Method hiding is performed at runtime, and method overriding is performed at compile-time.
+
+38. What is the purpose of the `super()` statement in a constructor?
+    - A. Call the superclass constructor
+    - B. Access the superclass methods
+    - C. Initialize the instance variables
+    - D. Return the current object
+
+39. How does the `NullPointerException` occur in Java?
+    - A. When an object is referenced without being instantiated
+    - B. When the `null` keyword is used in a method
+    - C. When an object is passed as a parameter to a method
+    - D. When the `this` keyword is used in a static method
+
+40. What is the purpose of the `break` statement in Java?
+    - A. Terminate the current loop or switch statement
+    - B. Skip the current iteration in a loop
+    - C. Return a value from a method
+    - D. Exit the entire program
+
+41. How is the `switch` statement different from a series of `if-else` statements in Java?
+    - A. The `switch` statement is more efficient than `if-else` statements.
+    - B. `switch` can only be used for numeric or enumerated types, while `if-else` statements can handle any Boolean expression.
+    - C. `switch` allows fall-through behavior, while `if-else` statements do not.
+    - D. `switch` allows the use of the `break` statement to exit the statement block.
+
+42. What is the purpose of the `try-with-resources` statement in Java?
+    - A. Allocate system resources
+    - B. Close resources automatically after usage
+    - C. Catch exceptions in a try block
+    - D. Implement dynamic polymorphism
+
+43. What is the role of the `java.lang` package in Java?
+    - A. Define common data structures
+    - B. Provide fundamental classes for the Java language
+    - C. Implement GUI components
+    - D. Manage file input/output operations
+
+44. How are lambda expressions used in Java?
+    - A. To define anonymous classes
+    - B. To create instance variables
+    - C. To implement functional interfaces concisely
+    - D. To declare constants
+
+45. What is the purpose of the `java.util` package in Java?
+    - A. Define utility methods for string manipulation
+    - B. Implement the core Java runtime environment
+    - C. Provide data structures like collections and iterators
+    - D. Handle input/output operations
+
+46. How are generic types used in Java?
+    - A. To create instances of a class
+    - B. To specify the return type of a method
+    - C. To define the data type of a collection at compile-time
+    - D. To declare constants with specific types
+
+47. What is the purpose of the `interface` keyword in Java?
+    - A. Declare a constant value
+    - B. Specify that a class cannot be instantiated
+    - C. Define a set of methods that a class must implement
+    - D. Allow multiple inheritances
+
+48. How can you prevent a class from being subclassed in Java?
+    - A. Use the `final` keyword in the class declaration
+    - B. Use the `sealed` keyword in the class declaration
+    - C. Use the `abstract` keyword in the class declaration
+    - D. Define a private constructor in the class
+
+49. What is the purpose of the `instanceof` operator in Java?
+    - A. Check if an object is of a specific type
+    - B. Determine the size of an object
+    - C. Compare two objects for equality
+    - D. Access the properties of an object
+
+50. How does the `NullPointerException` occur in Java?
+    - A. When an object is referenced without being instantiated
+    - B. When the `null` keyword is used in a method
+   
